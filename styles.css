@@ -1,0 +1,51 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    text-align: center;
+    margin: 40;
+    padding: 0;
+}   
+
+.background {
+    background-image: url('https://yt3.googleusercontent.com/FmkaFPoM_5GlYXSAC2DGtilgqWW5fY3HPAhUAkUASpJrwdLjOj5_27wM4Fk3fc-qCDzF05vMzRk=s176-c-k-c0x00ffffff-no-rj'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: up;
+    background-position:center top;
+    background-repeat: no-repeat;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30vh; 
+}
+
+#downloadLink,
+#unlockBtn {
+    margin-top: 20px;
+
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+#subscribeBtn,
+#unlockBtn {
+    background-color: rgba(179, 0, 0, 0.849);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#subscribeBtn:hover,
+#unlockBtn:hover {
+    background-color: rgba(89, 0, 255, 0.849);;
+}
+
+
